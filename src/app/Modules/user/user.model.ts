@@ -10,6 +10,15 @@ const userSchema = new Schema<IUser>(
       type: String,
       required: true,
     },
+    image: {
+      type: String,
+    },
+    number: {
+      type: Number,
+    },
+    address: {
+      type: String,
+    },
   },
   { timestamps: true }
 );
