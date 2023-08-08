@@ -4,6 +4,6 @@ export type IUser = {
   email: string;
   password: string;
   image?: string;
-  number?: number;
+  number: number;
   address?: string;
 };

@@ -1,3 +1,4 @@
+import { authRouters } from '../app/Modules/auth/auth.router';
 import { userRouters } from '../app/Modules/user/user.route';
 
 const modulesRoutes = [
@@ -5,6 +6,10 @@ const modulesRoutes = [
   {
     path: '/users',
     route: userRouters.router,
+  },
+  {
+    path: '/auth',
+    route: authRouters.router,
   },
 ];
 
